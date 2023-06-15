@@ -37,8 +37,6 @@ function App() {
       <Card title={concepts[0].title} description={concepts[0].description} imagePath={concepts[0].image}/>
       <Card title={concepts[1].title} description={concepts[1].description} imagePath={concepts[1].image}/>
       <Card title={concepts[2].title} description={concepts[2].description} imagePath={concepts[2].image}/>
-      
-      
       </ul>
     </div>
   );
