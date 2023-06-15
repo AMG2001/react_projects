@@ -1,4 +1,4 @@
-import ExpenseItem from "./components/ExpenseItem";
+import ExpensesList from './components/ExpsensesList';
 
 function App() {
   let date = new Date(2021,10,15);
@@ -31,10 +31,8 @@ function App() {
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
-      <ExpenseItem expense={expensesList[0]}></ExpenseItem>
-      <ExpenseItem expense={expensesList[1]}></ExpenseItem>
-      <ExpenseItem expense={expensesList[2]}></ExpenseItem>
+      <h2 id='app_title'>Let's get started!</h2>
+      <ExpensesList expensesList={expensesList}/>
     </div>
   );
 }
