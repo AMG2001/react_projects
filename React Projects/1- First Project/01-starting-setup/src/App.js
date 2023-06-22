@@ -1,4 +1,5 @@
 import ExpensesList from './components/ExpsensesList';
+import NewExpense from './components/NewExpense/NewExpense';
 
 function App() {
   let date = new Date(2021,10,15);
@@ -31,7 +32,7 @@ function App() {
   ];
   return (
     <div>
-      <h2 id='app_title'>Let's get started!</h2>
+      <NewExpense />
       <ExpensesList expensesList={expensesList}/>
     </div>
   );
